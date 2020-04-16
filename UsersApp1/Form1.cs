@@ -37,7 +37,7 @@ namespace UsersApp1
         private void Test1()
         {
             string st = "";
-            int n = 0;
+            long n = 0;
             try
             {
                 using (var context = new PrincipalContext(ContextType.Domain, "mhp.com.ua.inc"))
